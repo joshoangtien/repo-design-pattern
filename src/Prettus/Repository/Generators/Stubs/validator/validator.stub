@@ -1,0 +1,24 @@
+<?php
+
+$NAMESPACE$
+
+use \JosHoangTien\Validator\Contracts\ValidatorInterface;
+use \JosHoangTien\Validator\LaravelValidator;
+
+/**
+ * Class $CLASS$Validator.
+ *
+ * @package $NAMESPACE$
+ */
+class $CLASS$Validator extends LaravelValidator
+{
+    /**
+     * Validation Rules
+     *
+     * @var array
+     */
+    protected $rules = [
+        ValidatorInterface::RULE_CREATE => $RULES$,
+        ValidatorInterface::RULE_UPDATE => $RULES$,
+    ];
+}
